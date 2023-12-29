@@ -4,7 +4,7 @@ import { SubmitKey } from "../store/config";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "获取访问码或使用权限联系小江(vx:yxxj985)",
+  WIP: "获取使用权限&使用教程联系小江(vx:yxxj985)",
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
